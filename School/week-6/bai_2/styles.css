@@ -1,0 +1,69 @@
+body{
+
+}
+input {border:0;outline:0; direction:LTR;    text-align: right; /* Align text to the right */
+    font-size:x-large;
+}
+input:focus {outline:none!important;}
+.container {
+    border: 2px solid;
+     border-radius: 10px;
+     padding: 10px;
+    height: 600px;
+    width: 511px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.display {
+
+    box-sizing: border-box;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+    border-radius: 10px;
+}
+
+.ans {
+    font-size: 30px;
+    height: 60px;
+    align-self: flex-end;
+}
+.result {
+    font-size: 50px;
+    align-self: flex-end;
+}
+.button_fields {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60%;
+    gap: 2%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border: rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 120px;
+    height: 15%;
+}
+button:hover {
+    background-color: aqua;
+}
+.function_button {
+    background-color: rgb(189, 187, 187);
+}
+.equal_button {
+    background-color: rgb(125, 154, 235);
+}

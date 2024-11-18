@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A* Pathfinding Visualization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #ddd;
+        }
+        .start { background-color: lightgreen; }
+        .destination { background-color: lightcoral; }
+        .wall { background-color: gray; }
+        .path { background-color: yellow; }
+        .empty { background-color: white; }
+    </style>
+</head>
+<body>
+    <h1>A* Pathfinding Visualization</h1>
+    <div id="grid"></div>
+    <script src="astart-1.js"></script>
+</body>
+</html>

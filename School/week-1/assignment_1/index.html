@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container ">
+
+        <div class="row">
+            <div class="text">Họ Tên:</div>
+            <input class="input border-gray bg-box" type="text" />
+        </div>
+
+        <div class="row">
+            <div class="text">Địa Chỉ:</div>
+            <input class="input border-gray bg-gray" type="text" />
+
+        </div>
+
+        <div class="row">
+            <div class="text">Giới tính:</div>
+            <form>
+                <input type="radio" id="input-nam" name="gender" value="Nam">
+                <label for="input-nam">Nam</label>
+
+                <input type="radio" id="input-nu" name="gender" value="Nữ">
+                <label for="input-nu">Nữ</label>
+
+            </form>
+
+        </div>
+        <div class="row">
+            <div class="text">Ngày sinh:</div>
+            <input class="input border-gray bg-box font-gray " type="date" />
+
+        </div>
+        <div class="row">
+            <div class="text">E-mail:</div>
+            <input class="input border-gray bg-box" type="email" />
+
+        </div>
+        <div class="row">
+            <div class="text">Điện thoại:</div>
+            <input class="input border-gray bg-gray" type="number" />
+
+        </div>
+        <div class="row">
+            <div class="text">Khóa đăng ký:</div>
+
+            <input type="checkbox" id="Tieng-Anh" name="course" value="Tiếng Anh">
+            <label for="Tieng-Anh">Tiếng Anh</label>
+
+            <input type="checkbox" id="Quan-Tri" name="course" value="Quản Trị">
+            <label for="Quan-Tri">Quản Trị</label>
+
+            <input type="checkbox" id="CNTT" name="course" value="CNTT">
+            <label for="CNTT">CNTT</label>
+
+        </div>
+
+        <div class="row">
+            <div class="text">Tên sử dụng:</div>
+            <input class="input border-gray bg-box" />
+
+        </div>
+
+        <div class="row">
+            <div class="text">Mật khẩu:</div>
+            <input class="input border-gray bg-gray" type="password" />
+
+        </div>
+
+        <div class="row">
+            <div class="text">Gõ lại mật khẩu:</div>
+            <input class="input border-gray bg-gray" type="password" />
+        </div>
+        <div class="row">
+            <div class="text">Ghi chú:</div>
+            <textarea id="note-input" class="input-note border-gray bg-gray" name="note" rows="3"></textarea>
+        </div>
+        <div class="row">
+            <div class="text">Ảnh chân dung:</div>
+            <div class="flex flex-col gap-7">
+                <div class="flex gap-7">
+                    <input id="input-choose-file" class="input " type="file"/>
+                </div>
+                <div>
+                    <!--TODO: variable for no file chosen -->
+                    <button class="bg-blue text-white btn">Chấp nhận</button>
+                    <button class="bg-blue text-white btn">Bỏ qua</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+        </div>
+
+    </div>
+</body>
+
+</html>
